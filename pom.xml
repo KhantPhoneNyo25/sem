@@ -6,20 +6,14 @@
 
     <groupId>com.napier.sem</groupId>
     <artifactId>seMethods</artifactId>
-<<<<<<< HEAD
-    <version>1.0-SNAPSHOT</version>
-=======
     <version>0.1.0.2</version>
->>>>>>> 0.1.0.2-(0.1-alpha-2)
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-<<<<<<< HEAD
 
-=======
     <dependencies>
         <dependency>
             <groupId>org.mongodb</groupId>
@@ -27,6 +21,7 @@
             <version>3.6.4</version>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -55,5 +50,4 @@
             </plugin>
         </plugins>
     </build>
->>>>>>> 0.1.0.2-(0.1-alpha-2)
 </project>
