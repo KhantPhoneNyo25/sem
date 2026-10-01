@@ -1,0 +1,25 @@
+Index: use-cases/HR System.puml
+===================================================================
+diff --git a/use-cases/HR System.puml b/use-cases/HR System.puml
+new file mode 100644
+--- /dev/null	(date 1790846994220)
++++ b/use-cases/HR System.puml	(date 1790846994220)
+@@ -0,0 +1,17 @@
++@startuml
++actor HR as "HR Advisor"
++
++rectangle Database
++
++rectangle "HR System" {
++    usecase UC4 as "Get salaries
++    by role"
++
++    usecase UCa as "Print salaries"
++
++    HR - UC4
++    UC4 ..> UCa : include
++    UC4 - Database
++}
++
++@enduml
+\ No newline at end of file
