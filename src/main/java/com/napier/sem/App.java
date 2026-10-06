@@ -144,6 +144,32 @@ public class App
     }
 
     /**
+     * Prints a list of employees.
+     * @param employees The list of employees to print.
+     */
+    public void printSalaries(ArrayList<Employee> employees)
+    {
+        // Check employees is not null
+        if (employees == null)
+        {
+            System.out.println("No employees to print");
+            return;
+        }
+
+        // Print header
+        System.out.println(String.format("%-10s %-15s %-20s %-8s", "Emp No", "First Name", "Last Name", "Salary"));
+        // Loop over all employees in the list
+        for (Employee emp : employees)
+        {
+            if (emp == null) continue;
+            String emp_string =
+                    String.format("%-10s %-15s %-20s %-8s",
+                            emp.emp_no, emp.first_name, emp.last_name, emp.salary);
+            System.out.println(emp_string);
+        }
+    }
+
+    /**
      * Display an employee's details.
      */
     public void displayEmployee(Employee emp)
@@ -191,12 +217,11 @@ public class App
         // Get all salaries
         ArrayList<Employee> employees = a.getAllSalaries();
 
-        if (employees != null)
-        {
-            System.out.println("Successfully retrieved " + employees.size() + " employees' salaries.");
-        }
+        // Print salaries list[cite: 11]
+        a.printSalaries(employees);
 
         // Disconnect from database
         a.disconnect();
     }
 }
+
