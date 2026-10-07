@@ -1,0 +1,39 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7e692ebd-87eb-40f9-8968-f087690e9dbf\" name=\"Changes\" comment=\"update\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"feature/mongo-intergration\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/sem\" />\r\n    <option name=\"ROOT_SYNC\" value=\"DONT_SYNC\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"D:/Bsc_Java/seMethods2/sem/src\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Bsc_Java\\seMethods2\\sem\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Docker Image (1)\" type=\"docker-deploy\" factoryName=\"docker-image\" temporary=\"true\" server-name=\"Docker\">\r\n      <deployment type=\"docker-image\">\r\n        <settings>\r\n          <option name=\"imageTag\" value=\"mongo:latest\" />\r\n          <option name=\"containerName\" value=\"mongo\" />\r\n          <option name=\"portBindings\">\r\n            <list>\r\n              <DockerPortBindingImpl>\r\n                <option name=\"containerPort\" value=\"27017\" />\r\n                <option name=\"hostPort\" value=\"27017\" />\r\n              </DockerPortBindingImpl>\r\n            </list>\r\n          </option>\r\n        </settings>\r\n      </deployment>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Docker Image (2)\" type=\"docker-deploy\" factoryName=\"docker-image\" temporary=\"true\" server-name=\"Docker\">\r\n      <deployment type=\"docker-image\">\r\n        <settings>\r\n          <option name=\"imageTag\" value=\"sha256:4acfc6968268e5a0927beb49fe639b7a72849e0cbb29ad636225ebd801c1afe6\" />\r\n          <option name=\"containerName\" value=\"\" />\r\n          <option name=\"commandLineOptions\" value=\"--network se-methods\" />\r\n        </settings>\r\n      </deployment>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Docker Image\" type=\"docker-deploy\" factoryName=\"docker-image\" temporary=\"true\" server-name=\"Docker\">\r\n      <deployment type=\"docker-image\">\r\n        <settings>\r\n          <option name=\"imageTag\" value=\"khantphonenyo25/sem:latest\" />\r\n          <option name=\"containerName\" value=\"\" />\r\n        </settings>\r\n      </deployment>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Dockerfile\" type=\"docker-deploy\" factoryName=\"dockerfile\" temporary=\"true\" server-name=\"Docker\">\r\n      <deployment type=\"dockerfile\">\r\n        <settings>\r\n          <option name=\"sourceFilePath\" value=\"Dockerfile\" />\r\n        </settings>\r\n      </deployment>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"docker-compose.yml: Compose Deployment\" type=\"docker-deploy\" factoryName=\"docker-compose.yml\" temporary=\"true\" server-name=\"Docker\">\r\n      <deployment type=\"docker-compose.yml\">\r\n        <settings>\r\n          <option name=\"sourceFilePath\" value=\"docker-compose.yml\" />\r\n        </settings>\r\n      </deployment>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Docker.docker-compose.yml: Compose Deployment\" />\r\n      <item itemvalue=\"Docker.Docker Image\" />\r\n      <item itemvalue=\"Docker.Docker Image (1)\" />\r\n      <item itemvalue=\"Docker.Docker Image (2)\" />\r\n      <item itemvalue=\"Docker.Dockerfile\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Docker.Dockerfile\" />\r\n        <item itemvalue=\"Docker.Docker Image (2)\" />\r\n        <item itemvalue=\"Docker.Docker Image (1)\" />\r\n        <item itemvalue=\"Docker.Docker Image\" />\r\n        <item itemvalue=\"Docker.docker-compose.yml: Compose Deployment\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"update\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/Main.java</url>\r\n          <line>13</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ff8a06704e35fdb4067c53e25a4c89957717ff0e)
++++ b/.idea/workspace.xml	(date 1790661469864)
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="7e692ebd-87eb-40f9-8968-f087690e9dbf" name="Changes" comment="update">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -15,17 +15,18 @@
+         <entry key="$PROJECT_DIR$" value="feature/mongo-intergration" />
+       </map>
+     </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sem" />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="DONT_SYNC" />
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "git-widget-placeholder": "master",
+-    "last_opened_file_path": "D:/Bsc_Java/seMethods2/sem/src"
++    "git-widget-placeholder": "feature/view-record",
++    "last_opened_file_path": "D:/Bsc_Java/seMethods2/sem"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="D:\Bsc_Java\seMethods2\sem" />
+       <recent name="D:\Bsc_Java\seMethods2\sem\src" />
+     </key>
+   </component>
